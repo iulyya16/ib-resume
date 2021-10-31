@@ -1,0 +1,208 @@
+#button {
+  background-color: black;
+  border: 1px solid goldenrod;
+  color: goldenrod;
+  font-size: 18px;
+  height: 40px;
+  padding: 15px 100px;
+  text-align: center;
+  text-decoration: none;
+  width: 300px;
+}
+
+#button:hover {
+  background-color: goldenrod;
+  border: 2px solid black;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.about-me {
+  height: auto;
+  max-width: 400px;
+  width: 100%;
+}
+
+.about-me span {
+  border-bottom: 3px double black;
+}
+
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.contact-form {
+  padding-left: 5px;
+}
+
+.image {
+  float: left;
+  height: auto;
+  margin: 0px;
+  width: 50%;
+}
+
+.responsive {
+  float: left;
+  padding: 0 6px;
+  width: 24.99999%;
+}
+
+.topnav {
+  background-color: black;
+  border: 0.5px solid goldenrod;
+  left: 0;
+  max-height: 20%;
+  max-width: 100%;
+  overflow: hidden;
+  top: 0;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav a {
+  color: goldenrod;
+  display: block;
+  float: left;
+  font-size: 17px;
+  font-weight: 900;
+  padding: 20px 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: goldenrod;
+  border: 1px solid black;
+  color: black;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .responsive {
+    margin: 6px 0;
+    width: 49.99999%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 200%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-form {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 200%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .my-interests {
+    overflow: visible;
+    width: 100%;
+  }
+}
+
+[type="submit"] {
+  background-color: black;
+  color: goldenrod;
+  font-size: 18px;
+  height: 40px;
+  text-decoration: none;
+  width: 130px;
+}
+
+[type="text"], [type="email"] {
+  border: 2px solid black;
+  height: 30px;
+  width: 25%;
+}
+
+body {
+  font-size: large;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery img {
+  height: auto;
+  width: 100%;
+}
+
+div.gallery:hover {
+  border: 2px solid goldenrod;
+}
+
+footer {
+  background-color: #2e2b23;
+  bottom: 0;
+  color: goldenrod;
+  max-height: 15%;
+  max-width: 100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  width: 100%;
+}
+
+footer>a {
+  color: #dbcda7;
+}
+
+html {
+  font-family: cambria, cochin, georgia, times, 'times new roman', serif;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+  max-width: 400px;
+  width: 100%;
+}
+
+input[type="email"]:focus {
+  border: 5px solid goldenrod;
+}
+
+input[type="text"]:focus {
+  border: 5px solid goldenrod;
+}
+
+textarea {
+  border: 2px solid black;
+  height: 150px;
+  width: 50%;
+}
+
+textarea:focus {
+  border: 5px solid goldenrod;
+}
